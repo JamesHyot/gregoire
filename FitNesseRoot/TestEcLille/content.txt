@@ -1,0 +1,13 @@
+!define TEST_SYSTEM {slim}
+Démonstration de la syntaxe Fitness
+
+!path ./CreateUsers/build/classes/
+
+| Import |
+| createusers.fixtures |
+
+!| Create Users |
+| Login | Passwd | Active | cree? |
+| toto1 | toto1 | 1 | true |
+| toto2 | toto2 | 0 | true |
+| toto3 | toto3 | 1 | true |

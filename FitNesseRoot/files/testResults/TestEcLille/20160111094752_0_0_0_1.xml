@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20151230</FitNesseVersion>
+  <rootPath>TestEcLille</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>13</exceptions>
+    </counts>
+    <date>2016-01-11T09:47:52+01:00</date>
+    <runTimeInMillis>199</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;Démonstration de la syntaxe Fitness&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: ~/NetBeansProjects/CreateUsers/build/classes/&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;createusers&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;Create Users &lt;span class="error"&gt;Could not invoke constructor for CreateUsers[0]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+		&lt;td&gt;Passwd&lt;/td&gt;
+		&lt;td&gt;Active&lt;/td&gt;
+		&lt;td&gt;cree?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;toto1 &lt;span class="error"&gt;The instance decisionTable_1.setLogin. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;toto1 &lt;span class="error"&gt;The instance decisionTable_1.setPasswd. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1.setActive. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;cree? &lt;span class="error"&gt;The instance decisionTable_1.cree. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;toto2 &lt;span class="error"&gt;The instance decisionTable_1.setLogin. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;toto2 &lt;span class="error"&gt;The instance decisionTable_1.setPasswd. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;0 &lt;span class="error"&gt;The instance decisionTable_1.setActive. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;cree? &lt;span class="error"&gt;The instance decisionTable_1.cree. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;toto3 &lt;span class="error"&gt;The instance decisionTable_1.setLogin. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;toto3 &lt;span class="error"&gt;The instance decisionTable_1.setPasswd. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1.setActive. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;cree? &lt;span class="error"&gt;The instance decisionTable_1.cree. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestEcLille</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='createusers'}</instruction>
+        <slimResult>pass(createusers)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>createusers</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='CreateUsers', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for CreateUsers[0]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setLogin', args=[toto1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_4</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setLogin. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setPasswd', args=[toto1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_5</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setPasswd. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_6</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setActive. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_8', instruction='call', instanceName='decisionTable_1', methodName='cree', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_8</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.cree. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setLogin', args=[toto2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_10</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setLogin. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_11', instruction='call', instanceName='decisionTable_1', methodName='setPasswd', args=[toto2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_11</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setPasswd. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='setActive', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_12</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setActive. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='cree', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_14</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.cree. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_16', instruction='call', instanceName='decisionTable_1', methodName='setLogin', args=[toto3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_16</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setLogin. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='setPasswd', args=[toto3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_17</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setPasswd. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_18', instruction='call', instanceName='decisionTable_1', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_18</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setActive. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='cree', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_20</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.cree. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/usr/lib/jvm/oracle_jdk8/bin/java -cp fitnesse-standalone.jar:~/NetBeansProjects/CreateUsers/build/classes/ fitnesse.slim.SlimService 8094</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>477</totalRunTimeInMillis>
+</testResults>
+

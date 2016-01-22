@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20151230</FitNesseVersion>
+  <rootPath>FrontPage.TestApplication</rootPath>
+    <result>
+    <counts>
+      <right>7</right>
+      <wrong>1</wrong>
+      <ignores>7</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2016-01-12T11:50:36+01:00</date>
+    <runTimeInMillis>402</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;Utilisation des variables au sein de Fitnesse&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /home/james/NetBeansProjects/CreateUsers/build/classes/&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;createusers.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;&lt;span class="pass"&gt;Create Users&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+		&lt;td&gt;Passwd&lt;/td&gt;
+		&lt;td&gt;Active&lt;/td&gt;
+		&lt;td&gt;id?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;toto1&lt;/td&gt;
+		&lt;td&gt;toto1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;110550648&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;toto2&lt;/td&gt;
+		&lt;td&gt;toto2&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;$p&amp;lt;-[110550649]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;toto2&lt;/td&gt;
+		&lt;td&gt;toto2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;$p-&amp;gt;[110550649]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5"&gt;&lt;span class="pass"&gt;Add User To System&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+		&lt;td&gt;Passwd&lt;/td&gt;
+		&lt;td&gt;Active&lt;/td&gt;
+		&lt;td&gt;cree?&lt;/td&gt;
+		&lt;td&gt;id?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Dupont1&lt;/td&gt;
+		&lt;td&gt;toto1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;-617797656&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Dupont2&lt;/td&gt;
+		&lt;td&gt;toto2&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;-617797655&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Dupont2&lt;/td&gt;
+		&lt;td&gt;toto3&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;-617797655&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Remove User From System&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Dupont2&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5"&gt;&lt;span class="pass"&gt;Add User To System&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+		&lt;td&gt;Passwd&lt;/td&gt;
+		&lt;td&gt;Active&lt;/td&gt;
+		&lt;td&gt;cree?&lt;/td&gt;
+		&lt;td&gt;id?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Dupont1&lt;/td&gt;
+		&lt;td&gt;toto1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;-617797656&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Dupont2&lt;/td&gt;
+		&lt;td&gt;toto3&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;$p&amp;lt;-[-617797655]&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Remove User By Id&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;$p&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5"&gt;&lt;span class="pass"&gt;Add User To System&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Login&lt;/td&gt;
+		&lt;td&gt;Passwd&lt;/td&gt;
+		&lt;td&gt;Active&lt;/td&gt;
+		&lt;td&gt;cree?&lt;/td&gt;
+		&lt;td&gt;id?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Dupont1&lt;/td&gt;
+		&lt;td&gt;toto1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;-617797656&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Dupont2&lt;/td&gt;
+		&lt;td&gt;toto3&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;fals&lt;/span&gt;e] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;tru&lt;/span&gt;&lt;span class="fail"&gt;e]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;-617797655&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestApplication</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='createusers.fixtures'}</instruction>
+        <slimResult>pass(createusers.fixtures)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>createusers.fixtures</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='CreateUsers', args=[]}</instruction>
+        <slimResult>pass(Create Users)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Create Users</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setLogin', args=[toto1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setPasswd', args=[toto1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_6</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_8', instruction='call', instanceName='decisionTable_1', methodName='id', args=[]}</instruction>
+        <slimResult>ignore(110550648)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>decisionTable_1_8</instructionId>
+                    <col>3</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>110550648</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setLogin', args=[toto2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_10</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_11', instruction='call', instanceName='decisionTable_1', methodName='setPasswd', args=[toto2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_11</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='setActive', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_12</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='callAndAssign', symbolName='p', instanceName='decisionTable_1', methodName='id', args=[]}</instruction>
+        <slimResult>$p&lt;-[110550649]</slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_14</instructionId>
+                    <col>3</col>
+                              <row>3</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$p&lt;-[110550649]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_16', instruction='call', instanceName='decisionTable_1', methodName='setLogin', args=[toto2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_16</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='setPasswd', args=[toto2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_17</instructionId>
+                    <col>1</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_18', instruction='call', instanceName='decisionTable_1', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_18</instructionId>
+                    <col>2</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='id', args=[]}</instruction>
+        <slimResult>pass($p-&gt;[110550649])</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_20</instructionId>
+                    <col>3</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>$p-&gt;[110550649]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_0', instruction='make', instanceName='decisionTable_2', className='AddUserToSystem', args=[]}</instruction>
+        <slimResult>pass(Add User To System)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_2_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Add User To System</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_4', instruction='call', instanceName='decisionTable_2', methodName='setLogin', args=[Dupont1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_5', instruction='call', instanceName='decisionTable_2', methodName='setPasswd', args=[toto1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_6', instruction='call', instanceName='decisionTable_2', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_6</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_8', instruction='call', instanceName='decisionTable_2', methodName='cree', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_2_8</instructionId>
+                    <col>3</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>true</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_9', instruction='call', instanceName='decisionTable_2', methodName='id', args=[]}</instruction>
+        <slimResult>ignore(-617797656)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>decisionTable_2_9</instructionId>
+                    <col>4</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>-617797656</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_11', instruction='call', instanceName='decisionTable_2', methodName='setLogin', args=[Dupont2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_11</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_12', instruction='call', instanceName='decisionTable_2', methodName='setPasswd', args=[toto2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_12</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_13', instruction='call', instanceName='decisionTable_2', methodName='setActive', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_13</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_15', instruction='call', instanceName='decisionTable_2', methodName='cree', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_2_15</instructionId>
+                    <col>3</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>true</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_16', instruction='call', instanceName='decisionTable_2', methodName='id', args=[]}</instruction>
+        <slimResult>ignore(-617797655)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>decisionTable_2_16</instructionId>
+                    <col>4</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>-617797655</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_18', instruction='call', instanceName='decisionTable_2', methodName='setLogin', args=[Dupont2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_18</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_19', instruction='call', instanceName='decisionTable_2', methodName='setPasswd', args=[toto3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_19</instructionId>
+                    <col>1</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_20', instruction='call', instanceName='decisionTable_2', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_2_20</instructionId>
+                    <col>2</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_22', instruction='call', instanceName='decisionTable_2', methodName='cree', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_2_22</instructionId>
+                    <col>3</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>false</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_2_23', instruction='call', instanceName='decisionTable_2', methodName='id', args=[]}</instruction>
+        <slimResult>ignore(-617797655)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>decisionTable_2_23</instructionId>
+                    <col>4</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>-617797655</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_3_0', instruction='make', instanceName='decisionTable_3', className='RemoveUserFromSystem', args=[Dupont2]}</instruction>
+        <slimResult>pass(Remove User From System)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_3_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Remove User From System</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_0', instruction='make', instanceName='decisionTable_4', className='AddUserToSystem', args=[]}</instruction>
+        <slimResult>pass(Add User To System)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Add User To System</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_4', instruction='call', instanceName='decisionTable_4', methodName='setLogin', args=[Dupont1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_5', instruction='call', instanceName='decisionTable_4', methodName='setPasswd', args=[toto1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_6', instruction='call', instanceName='decisionTable_4', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_6</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_8', instruction='call', instanceName='decisionTable_4', methodName='cree', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_8</instructionId>
+                    <col>3</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>false</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_9', instruction='call', instanceName='decisionTable_4', methodName='id', args=[]}</instruction>
+        <slimResult>ignore(-617797656)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>decisionTable_4_9</instructionId>
+                    <col>4</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>-617797656</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_11', instruction='call', instanceName='decisionTable_4', methodName='setLogin', args=[Dupont2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_11</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_12', instruction='call', instanceName='decisionTable_4', methodName='setPasswd', args=[toto3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_12</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_13', instruction='call', instanceName='decisionTable_4', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_13</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_15', instruction='call', instanceName='decisionTable_4', methodName='cree', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_4_15</instructionId>
+                    <col>3</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>true</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_4_16', instruction='callAndAssign', symbolName='p', instanceName='decisionTable_4', methodName='id', args=[]}</instruction>
+        <slimResult>$p&lt;-[-617797655]</slimResult>
+                <expectation>
+                    <instructionId>decisionTable_4_16</instructionId>
+                    <col>4</col>
+                              <row>3</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$p&lt;-[-617797655]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_5_0', instruction='make', instanceName='decisionTable_5', className='RemoveUserById', args=[$p]}</instruction>
+        <slimResult>pass(Remove User By Id)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_5_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Remove User By Id</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_0', instruction='make', instanceName='decisionTable_6', className='AddUserToSystem', args=[]}</instruction>
+        <slimResult>pass(Add User To System)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_6_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Add User To System</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_4', instruction='call', instanceName='decisionTable_6', methodName='setLogin', args=[Dupont1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_6_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_5', instruction='call', instanceName='decisionTable_6', methodName='setPasswd', args=[toto1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_6_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_6', instruction='call', instanceName='decisionTable_6', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_6_6</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_8', instruction='call', instanceName='decisionTable_6', methodName='cree', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_6_8</instructionId>
+                    <col>3</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>false</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_9', instruction='call', instanceName='decisionTable_6', methodName='id', args=[]}</instruction>
+        <slimResult>ignore(-617797656)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>decisionTable_6_9</instructionId>
+                    <col>4</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>-617797656</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_11', instruction='call', instanceName='decisionTable_6', methodName='setLogin', args=[Dupont2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_6_11</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_12', instruction='call', instanceName='decisionTable_6', methodName='setPasswd', args=[toto3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_6_12</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_13', instruction='call', instanceName='decisionTable_6', methodName='setActive', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_6_13</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_15', instruction='call', instanceName='decisionTable_6', methodName='cree', args=[]}</instruction>
+        <slimResult>fail(a=false;e=true)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_6_15</instructionId>
+                    <col>3</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>false</actual>
+                              <expected>true</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_6_16', instruction='call', instanceName='decisionTable_6', methodName='id', args=[]}</instruction>
+        <slimResult>ignore(-617797655)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>decisionTable_6_16</instructionId>
+                    <col>4</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>-617797655</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/usr/lib/jvm/oracle_jdk8/bin/java -cp fitnesse-standalone.jar:/home/james/NetBeansProjects/CreateUsers/build/classes/ fitnesse.slim.SlimService 8091</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>727</totalRunTimeInMillis>
+</testResults>
+

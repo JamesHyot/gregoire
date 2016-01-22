@@ -1,0 +1,13 @@
+!define TEST_SYSTEM {slim}
+Utilisation des variables au sein de Fitnesse
+
+!path ./CreateUsers/build/classes/
+
+| Import |
+| createusers.fixtures |
+
+!| Create Users |
+| Login | Passwd | Active | id? |
+| toto1 | toto1 | 1 | |
+| toto2 | toto2 | 0 | $p= |
+| toto2 | toto2 | 1 | $p |

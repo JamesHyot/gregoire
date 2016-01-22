@@ -1,0 +1,13 @@
+!define TEST_SYSTEM {slim}
+Utilisation des variables au sein de Fitnesse
+
+!path /home/james/NetBeansProjects/CreateUsers/build/classes/
+
+| Import |
+| createusers.fixtures |
+
+!| Add User To System |
+| Login | Passwd | Active | cree? |
+| toto1 | toto1 | 1 | true |
+| toto2 | toto2 | 0 | true |
+| toto2 | toto2 | 1 | false |

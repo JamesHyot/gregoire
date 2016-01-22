@@ -1,0 +1,34 @@
+!define TEST_SYSTEM {slim}
+Utilisation des variables au sein de Fitnesse
+
+!path ./CreateUsers/build/classes/
+
+| Import |
+| createusers.fixtures |
+
+!| Create Users |
+| Login | Passwd | Active | id? |
+| toto1 | toto1 | 1 | |
+| toto2 | toto2 | 0 | $p= |
+| toto2 | toto2 | 1 | $p |
+
+
+!| Add User To System |
+| Login | Passwd | Active | cree? | id? |
+| Dupont1 | toto1 | 1 | true ||
+| Dupont2 | toto2 | 0 | true ||
+| Dupont2 | toto3 | 1 | false ||
+
+!| Remove User From System | Dupont2 |
+
+!| Add User To System |
+| Login | Passwd | Active | cree? | id? |
+| Dupont1 | toto1 | 1 | false | |
+| Dupont2 | toto3 | 1 | true |$p= |
+
+!| Remove User By Id|$p|
+
+!| Add User To System |
+| Login | Passwd | Active | cree? | id? |
+| Dupont1 | toto1 | 1 | false | |
+| Dupont2 | toto3 | 1 | true | |
